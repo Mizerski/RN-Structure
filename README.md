@@ -1,5 +1,39 @@
-## Services
+## The Directory Structure
+Here is a bird's eye view of the recommended directory structure:
 
+```
+Project
+  -src
+    |--- assets
+    |--- screens
+    |--- navigation
+    |--- services
+    |--- components
+    |--- hooks
+    |--- types
+    |--- redux
+    |--- utils
+```
+
+## Assets
+The assets directory is where you should put all your static assets, such as fonts and images. It's a good idea to organize these assets into separate subdirectories for each asset type. For example:
+
+```
+assets
+  |--- fonts
+  |--- images
+```
+
+## Services
+The services directory is where you should put all your code related to external services, such as APIs. It's a good idea to organize these services into separete subdirectories for each service type. For example:
+```
+services
+  |--- apiclient
+  |--- requestInterceptor
+  |--- responseInterceptor
+  |--- urls
+  |--- UserApi
+```
 ## Components
 The components directory is where you should put all your reusable components. Each component should have its own directory with the following files
 * index.ts: The main component file.
